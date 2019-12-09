@@ -1,0 +1,38 @@
+.about-us-page{
+	.breadcrumbs-wrap {
+        color: $dark-gray;
+        margin: 1rem 0;
+
+        .breadcrumbs-links {
+            font-size: 14px;
+            text-decoration: none;
+
+            &:after {
+                content: '\f101';
+                font-family: FontAwesome;
+                padding: 0 .5rem;
+
+            }
+        }
+
+        .breadcrumb-text {
+            font-size: 14px;
+        }
+    }
+    .adobe-heding {
+        background-color: $sky-blue;
+        margin: 2rem 0;
+
+        .adobe-title {
+            font: 32px "Open Sans";
+            color: $white;
+            padding: .5rem 0;
+            font-weight: 700;
+        }
+    }
+    .about-desc{
+    	font: 15px 'Open Sans',sans-serif;
+    	color: $body-color !important;
+    	margin: 1.2rem 0;
+    }
+}

@@ -1,0 +1,77 @@
+.adobe-list-page{
+	.banner-section{
+		margin: 1rem 0;
+	}
+	.adobe-heding{
+		background-color: $sky-blue;
+		margin: 2rem 0;
+		.adobe-title{
+			font: 32px "Anton", sans-serif;
+			color: $white;
+			padding: .5rem 0;
+		}
+	}
+	.adobe-desc{
+		p{
+			font: 16px 'Open Sans',sans-serif;
+			margin: 1.5rem 0;
+			color: $body-color !important;
+			letter-spacing: .2px;
+		}
+	}
+	.proudect-section{
+		flex: 0 0 33.33%;
+		width: 33.33%;
+		padding-left: 15px;
+    	padding-right: 15px;
+    	margin: 1.3rem 0;
+    	a{
+    		display: inline-block;
+    	}
+    	.product-img{
+    		object-fit: cover;
+    	}
+
+    	.adobe-product-title{
+    		font-weight: 700;
+    		text-align: center;
+    		font-size: 18px;
+    		margin: 2rem 0;
+    		color: $black-100;
+    	}
+    	.adobe-product-desc{
+    		font-size: 16px;
+    		text-align: center;	
+    		color: $body-color !important;
+    		font-family: "Open Sans", sans-serif;
+
+    	}
+    	.btn-div{
+    		text-align: center;
+    		margin: 1.5rem 0;
+    		.btn-text{
+    			background-color: $red;	
+    			color: $white;
+    			padding: 10px 20px;
+			    font-size: 18px;
+			    line-height: 1.333333;
+			    border: 0;
+			    border-radius: 6px;
+			    cursor: pointer;
+			    &:hover{
+			    	background-color: $red-dark;
+
+			    }
+    		}
+    		
+    	}
+	}
+}
+@media(max-width: 767px){
+	.adobe-list-page{
+		.proudect-section{
+			width: 100%;
+			flex: 100%;
+		}
+	}
+}

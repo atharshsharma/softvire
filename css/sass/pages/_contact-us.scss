@@ -1,0 +1,231 @@
+body {
+    color: $body-color !important;
+}
+
+.contact-us-page {
+    .breadcrumbs-wrap {
+        color: $dark-gray;
+        margin: 1rem 2rem;
+
+        .breadcrumbs-links {
+            font-size: 14px;
+            text-decoration: none;
+
+            &:after {
+                content: '\f101';
+                font-family: FontAwesome;
+                padding: 0 .5rem;
+
+            }
+        }
+
+        .breadcrumb-text {
+            font-size: 14px;
+        }
+    }
+
+    .mt-3 {
+        margin-top: 3rem;
+    }
+
+    .col-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .map-section {
+        iframe {
+            height: 300px;
+        }
+    }
+
+  
+        .gform_fields {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            .gfield {
+                &:first-child {
+                    padding-left: 0;
+                    width: 50%;
+                    float: left;
+                    padding-right: 15px;
+                }
+
+                &:nth-child(2) {
+                    padding-right: 0;
+                    width: 50%;
+                    float: left;
+                    padding-left: 15px;
+                }
+            }
+        }
+
+        .gform_heading {
+            .gform_title {
+                font: 21px "Anton", sans-serif;
+                letter-spacing: .2px;
+                color: $black-100;
+            }
+
+        }
+
+        .gfield {
+            margin-bottom: 1rem;
+        }
+
+        .gfield_label {
+            padding-bottom: .2rem;
+            display: inline-block;
+        }
+
+        .medium  {
+            font-size: inherit;
+            font-family: inherit;
+            padding: 9px 4px;
+            letter-spacing: normal;
+            border-radius: 0px;
+            width: 100%;
+        }
+
+        textarea {
+            width: 100%;
+        }
+
+        .gform_footer {
+            .gform_button  {
+                background-color: #404f66;
+                padding: .5rem 1rem;
+                font: bold 16px "Raleway", sans-serif !important;
+                color: $white !important;
+                font-weight: 700;
+                text-decoration: none;
+                margin-bottom: 1rem;
+                cursor: pointer;
+                border: 0;
+            }
+
+        }
+    
+
+    .address-section {
+        .contact-heading {
+            .title {
+                font: 18px "Anton", sans-serif;
+                letter-spacing: .2px;
+                color: $black-100;
+            }
+
+            .desc {
+                font-size: 15px;
+                color: $body-color !important;
+            }
+
+            &:after {
+                content: '';
+                // border-bottom: 1px solid $gray-500;
+                display: block;
+                margin: 22px 0;
+                height: 1px;
+                background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, .15), transparent);
+            }
+
+            &:last-child {
+                &:after {
+                    content: '';
+                    background-image: none;
+                }
+            }
+
+
+            .contact-details {
+                .icon-circle {
+                    height: 2em;
+                    width: 2em;
+                    text-align: center;
+                    line-height: 2em;
+                    color: $white;
+                    background-color: $danger;
+                    font-size: 14px;
+                    display: inline-block;
+                    border-radius: 50%;
+
+                    .contact-icon {
+                        line-height: 2;
+                    }
+                }
+
+                .address-title {
+                    padding-left: .8rem;
+                    font-weight: 700;
+                    font-size: 15px;
+                    color: $body-color !important;
+                    display: table-cell;
+                }
+
+                .contact-section {
+                    margin: 10px 0;
+                    display: table;
+
+                    .address-post {
+                        font-size: 14px;
+                        font-weight: 300;
+
+                    }
+
+                    .email,
+                    .number {
+                        font-size: 14px;
+                        text-decoration: none;
+                        color: $body-color !important;
+                    }
+                }
+
+
+
+            }
+        }
+
+        .time-details {
+            color: $black-100;
+
+            .time-details {
+                color: $body-color !important;
+                font-size: 15px;
+                padding-left: .5rem;
+                margin-bottom: 15px;
+            }
+        }
+
+    }
+}
+
+@media(max-width: 768px) {
+    .contact-us-page {
+        .col-6 {
+            flex: 100%;
+            max-width: 100%;
+        }
+        .gform_fields {
+            .gfield {
+                &:first-child {
+                    padding-left: 0;
+                    padding-right: 0;
+                    width: 100%
+                }
+
+                &:nth-child(2) {
+                    padding-right: 0;
+                    padding-left: 0;
+                    width: 100%
+                }
+
+            }
+        }
+
+        
+    }
+}

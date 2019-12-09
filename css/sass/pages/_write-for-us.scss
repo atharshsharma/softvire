@@ -1,0 +1,57 @@
+.write-for-us-page {
+    .breadcrumbs-wrap {
+        color: $dark-gray;
+        margin: 1rem 0;
+
+        .breadcrumbs-links {
+            font-size: 14px;
+            text-decoration: none;
+
+            &:after {
+                content: '\f101';
+                font-family: FontAwesome;
+                padding: 0 .5rem;
+
+            }
+        }
+
+        .breadcrumb-text {
+            font-size: 14px;
+        }
+    }
+	.email-title,
+    .subject-title {
+        font-size: 15px;
+        margin: 1.5rem 0;
+        color: $body-color !important;
+    }
+    .subject-title{
+    	margin: 0;
+    }
+	.text-link {
+        font-size: 15px;
+        color: $red !important;
+    }
+    .desc-text{
+    	font-size: 15px;
+    	color: $body-color !important;
+    	margin: 1.5rem 0;
+    }
+    .write-for-us-title{
+    	font-size: 18px;
+    	color: $black-100;
+    	margin: 1.2rem 0;
+    }
+    .list-style{
+    	padding: 0 2rem;
+    	.list{
+    		padding: .3rem 0;
+    		font-size: 15px;
+    	}
+    }
+    .thank-you-text{
+    	font-size: 15px;
+    	margin: 1rem 0;
+    	color:$body-color!important;
+    }
+}
